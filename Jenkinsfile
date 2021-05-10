@@ -13,6 +13,11 @@ pipeline{
 				echo 'bye world'
 			}
 		}
+		stage("ded"){
+			steps{
+				echo 'ded'
+			}
+		}
 
 	}
 
